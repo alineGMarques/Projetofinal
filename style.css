@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #252525;
+    display: flex;
+    justify-content: space-between;
+    
+}
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 8vw;
+    width: 20vw;
+    height: 12vh;
+}
+header nav{
+padding-right: 8vw;
+justify-content:flex-end;
+
+}
+nav  {
+    display: flex;
+    align-items: center;
+}
+
+a{
+    width: 6vw;
+ 
+}
+.logo{
+    width: 4vw;
+}
+.txt-sessa-um{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 70px;
+    
+    
+}
+
+.patinhadiv{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+    align-items: center;
+    
+}
+.patinhadiv img{
+    width: 8vw;
+    padding-top: 20px;
+    
+}
+.primeirasessao{
+    background-image: url(./cachorrobranco.png);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    border: 2px solid white;
+}
+.segundasessao{
+    background-image: url(./imagens/cachorroleao.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+.txt-sessa-dois{
+    font-size: 50px;
+ 
+    height: 30vh;
+    width: 40vw;
+    display: flex;
+    align-items: self-end;
+    justify-content: center;
+}
+.txt-p-um{
+   
+text-align: center;
+    display: flex;
+    width: 32vw;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.txt-p-dois{
+ 
+    display: flex;
+    justify-content: center;
+    width: 37vw;
+    font-size: 25px;
+}
+.txt-p-tres{
+    
+    display: flex;
+    justify-content: center;
+    width: 31.5vw;
+    font-size: 25px;
+}
+.txt-p-quatro{
+   
+    display: flex;
+    justify-content: center;
+    width: 36.5vw;
+    font-size: 25px;
+}
+.txt-p-cinco{
+    
+    display: flex;
+    justify-content: center;
+    width: 37.5vw;
+    font-size: 25px;
+}
+.botaodiv{
+    width: 30vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.botao-um{
+    border-radius: 100px ;
+    border: none;
+    color: #ffffff;
+    padding: 15px 30px 15px 30px;
+    background-color: #3A342F;
+    font: normal normal bold 27px/35px Roboto;
+}
+
+.terceirasessao{
+    background-image: url(./cachorropreto.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    color:#FFFFFF;
+}
+.txt-sessa-tres{
+    font-size: 50px;
+    height: 30vh;
+    width: 82vw;
+    display: flex;
+    align-items: self-end;
+    justify-content: flex-end;
+}
+.txt-sessa-tres-h{
+    font-size: 50px;
+
+    
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.p-um{
+  
+text-align: center;
+    display: flex;
+    width: 86.5vw;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+}
+.p-dois{
+
+    text-align: center;
+        display: flex;
+        width: 88.5vw;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 25px;
+}
+.p-tres{
+  
+     text-align: center;
+     display: flex;
+     width: 89.5vw;
+     display: flex;
+     justify-content: flex-end;
+     font-size: 25px;
+}
+.p-quatro{
+
+    text-align: center;
+    display: flex;
+    width: 83vw;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+}
+.p-cinco{
+    
+    text-align: center;
+    display: flex;
+    width: 91vw;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+  
+}
+.botaofinal{
+    
+    width: 83vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.botao-final{
+    border-radius: 100px ;
+    border: none;
+    background-color: #FFFFFF;
+    padding: 15px 30px 15px 30px;
+    font: normal normal bold 27px/35px Roboto;
+}
+.main-sessao{
+    background: #FFFFFF;    
+    height: 17vh;
+}
+.main-final{
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+    align-items: center;
+    height: 17vh;
+   
+}
+.Apoio{
+    
+    font-family: 'Roboto Serif', serif;
+    color: #EB4A7B;
+    font-size: 20px;
+    font-weight: 800;
+}
+footer{
+    height: 40vh;
+    background-color: #EB4A7B;
+    display: flex;
+    flex-wrap: nowrap;
+    color: #ffffff;
+
+    
+
+}
+.footer{
+display: flex;
+align-items: end;
+
+}
+li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 9vw;
+    justify-content: start;
+    
+}
+.colunafooter{
+ 
+    width: 15vw; 
+    height: 14vh ;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  
+  
+   
+}
+h3{
+    color: #FFFFFF;
+
+}
+
+.Atendimento{
+    
+    height: 10vh;
+  width: 14.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: end;   
+}
+.sobre{
+   
+    height: 10vh;
+  width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.unidades{
+    
+    height: 10vh;
+  width: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+@media(max-width:570px){
+    header div{
+        border: 2px solid #252525;
+        display: flex;
+        width: 50vw;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
