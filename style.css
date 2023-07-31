@@ -42,16 +42,12 @@ a{
     justify-content: center;
     color: #ffffff;
     font-size: 70px;
-    
-    
 }
-
 .patinhadiv{
     padding-top: 40px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-   
     align-items: center;
     
 }
@@ -67,18 +63,19 @@ a{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
-    border: 2px solid white;
+  
 }
 .segundasessao{
-    background-image: url(./imagens/cachorroleao.png);
+    background-image: url();
     height: 100vh;
+width: 100vw;
+
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
 }
 .txt-sessa-dois{
     font-size: 50px;
- 
     height: 30vh;
     width: 40vw;
     display: flex;
@@ -93,6 +90,7 @@ text-align: center;
     display: flex;
     justify-content: center;
     font-size: 25px;
+    
 }
 .txt-p-dois{
  
@@ -109,7 +107,6 @@ text-align: center;
     font-size: 25px;
 }
 .txt-p-quatro{
-   
     display: flex;
     justify-content: center;
     width: 36.5vw;
@@ -147,6 +144,8 @@ text-align: center;
     background-position: center center;
     color:#FFFFFF;
 }
+
+
 .txt-sessa-tres{
     font-size: 50px;
     height: 30vh;
@@ -157,8 +156,6 @@ text-align: center;
 }
 .txt-sessa-tres-h{
     font-size: 50px;
-
-    
     width: 80vw;
     display: flex;
     align-items: center;
@@ -166,8 +163,7 @@ text-align: center;
 
 }
 .p-um{
-  
-text-align: center;
+   text-align: center;
     display: flex;
     width: 86.5vw;
     display: flex;
@@ -175,8 +171,7 @@ text-align: center;
     font-size: 25px;
 }
 .p-dois{
-
-    text-align: center;
+        text-align: center;
         display: flex;
         width: 88.5vw;
         display: flex;
@@ -184,7 +179,6 @@ text-align: center;
         font-size: 25px;
 }
 .p-tres{
-  
      text-align: center;
      display: flex;
      width: 89.5vw;
@@ -193,7 +187,6 @@ text-align: center;
      font-size: 25px;
 }
 .p-quatro{
-
     text-align: center;
     display: flex;
     width: 83vw;
@@ -202,7 +195,6 @@ text-align: center;
     font-size: 25px;
 }
 .p-cinco{
-    
     text-align: center;
     display: flex;
     width: 91vw;
@@ -212,7 +204,6 @@ text-align: center;
   
 }
 .botaofinal{
-    
     width: 83vw;
     height: 20vh;
     display: flex;
@@ -237,10 +228,8 @@ text-align: center;
     width: 90vw;
     align-items: center;
     height: 17vh;
-   
 }
 .Apoio{
-    
     font-family: 'Roboto Serif', serif;
     color: #EB4A7B;
     font-size: 20px;
@@ -252,14 +241,13 @@ footer{
     display: flex;
     flex-wrap: nowrap;
     color: #ffffff;
-
-    
-
 }
 .footer{
-display: flex;
-align-items: end;
-
+  display: flex;
+  align-items: end;
+}
+.mobile{
+  display: none;
 }
 li{
     list-style: none;
@@ -270,53 +258,197 @@ li{
     
 }
 .colunafooter{
- 
     width: 15vw; 
     height: 14vh ;
     flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
-
-  
-  
-   
 }
 h3{
     color: #FFFFFF;
-
 }
 
 .Atendimento{
-    
     height: 10vh;
-  width: 14.5vw;
+    width: 14.5vw;
     display: flex;
     justify-content: center;
     align-items: end;   
 }
 .sobre{
-   
     height: 10vh;
-  width: 10vw;
+    width: 10vw;
     display: flex;
     justify-content: center;
     align-items: end;
 }
 .unidades{
-    
     height: 10vh;
-  width: 12vw;
+    width: 12vw;
     display: flex;
     justify-content: center;
     align-items: end;
 }
 @media(max-width:570px){
+   
     header div{
-        border: 2px solid #252525;
+       
+        width: 55vw;
         display: flex;
-        width: 50vw;
-        justify-content: space-around;
         align-items: center;
-    }
+        justify-content: center;
+       
 }
+.primeira{
+    display: flex;
+    justify-content: space-around;
+}
+.primeira h3{
+font-size:x-large
+}
+h3{
+  
+}
+nav{
+    flex-direction: row-reverse;
+}
+   .logo{
+    width: 48px;
+   }
+   .instagram{
+    display: none;
+    }
+    .Youtube{
+     display: none;
+    }
+    .whats{
+       position: absolute;
+        width: 12vw ;
+        margin-top: -23px;
+    }
+    .primeirasessao{
+      
+        
+    }
+
+    
+    .patinhadiv{
+       
+        height: 60vh;
+    }
+    .patinhadiv h2{
+        font-size:40px;
+    }
+       .txt-sessa-um{
+        
+       }
+      
+    .txt-sessa-dois{
+        
+            
+          }
+    .txt-p-um{
+    
+     border: 2px solid blue; 
+     width: 100vw;´
+        
+        }
+           .txt-p-dois{
+            border: 2px solid blue; 
+            width: 100vw;
+           }
+           .txt-p-tres{
+            border: 2px solid blue; 
+            width: 100vw;
+           }
+           .txt-p-quatro{
+            border: 2px solid blue; 
+            width: 100vw;
+           }
+            .txt-p-cinco{
+                border: 2px solid blue; 
+                width: 100vw;
+            }
+            .segundasessao p{
+                border: 2px solid red; 
+                
+            
+                
+            }
+    .patinhadiv img{
+     height: 15vh;   
+     width: 20vw;
+    }
+    .sessao2 {
+      
+        border: 2px solid blue;
+       
+    
+    
+    }
+    .txt-sessa-dois{
+        border: 2px solid greenyellow;
+        width: 100vw;
+        margin-bottom: 100px;
+        height: 10vh;
+        font-size: 32px;
+    }
+  
+    
+    .segundasessao{
+        background-image: url(./imagens/cachorroleao.png);
+    }
+    
+        .sessao2{
+      background-image: ;  
+
+    }
+    .sessao3{
+    
+    
+    }
+    .terceirasessao{
+
+        background-image: url(./cachorro2mobile.png);
+        }
+.main-final{
+   border: 2px solid rebeccapurple; 
+   width: 100vw;
+   display: flex;
+   
+}
+.main-final img{
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.main-sessao{
+    border: 2px solid red; 
+
+}
+
+.Apoio{
+    font-size: medium;
+position: absolute;
+left: 167px;
+margin-bottom: 50px;
+}
+   .havannas{
+   width: 200vw; 
+
+   } 
+   .footer  {
+
+
+   }
+.mobile{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+}
+}
+
+
