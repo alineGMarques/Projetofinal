@@ -1,17 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 
+/*inicio do meu header*/
 header {
     background-color: #252525;
     display: flex;
     justify-content: space-between;
-    
+
 }
-header div{
+
+header div {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -19,116 +20,94 @@ header div{
     width: 20vw;
     height: 12vh;
 }
-header nav{
-padding-right: 8vw;
-justify-content:flex-end;
+
+header nav {
+    padding-right: 8vw;
+    justify-content: flex-end;
 
 }
-nav  {
+
+.Fantastika {
+    color: #ffffff;
+}
+
+nav {
     display: flex;
     align-items: center;
 }
 
-a{
+a {
     width: 6vw;
- 
+
 }
-.logo{
+
+.logo {
     width: 4vw;
 }
-.txt-sessa-um{
+
+/*Fim do meu header*/
+
+/*Primeira section*/
+.txt-sessa-um {
     display: flex;
     width: 100vw;
     justify-content: center;
     color: #ffffff;
     font-size: 70px;
 }
-.patinhadiv{
+
+.patinhadiv {
     padding-top: 40px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
+
 }
-.patinhadiv img{
+
+.patinhadiv img {
     width: 8vw;
     padding-top: 20px;
-    
+
 }
-.primeirasessao{
+
+.primeirasessao {
     background-image: url(./cachorrobranco.png);
     height: 100vh;
-    width: 100vw;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
-  
-}
-.segundasessao{
-    background-image: url();
-    height: 100vh;
-width: 100vw;
 
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center center;
 }
-.txt-sessa-dois{
-    font-size: 50px;
-    height: 30vh;
-    width: 40vw;
-    display: flex;
-    align-items: self-end;
-    justify-content: center;
+
+/*Fim da primeira section*/
+
+/*inicio da segunda section*/
+body {
+    overflow-x: hidden;
 }
-.txt-p-um{
-   
-text-align: center;
-    display: flex;
-    width: 32vw;
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-    
-}
-.txt-p-dois{
- 
-    display: flex;
-    justify-content: center;
-    width: 37vw;
-    font-size: 25px;
-}
-.txt-p-tres{
-    
-    display: flex;
-    justify-content: center;
-    width: 31.5vw;
-    font-size: 25px;
-}
-.txt-p-quatro{
-    display: flex;
-    justify-content: center;
-    width: 36.5vw;
-    font-size: 25px;
-}
-.txt-p-cinco{
-    
-    display: flex;
-    justify-content: center;
-    width: 37.5vw;
-    font-size: 25px;
-}
-.botaodiv{
-    width: 30vw;
-    height: 20vh;
+
+.sessao2 {
+    background-image: url(./imagens/cachorroleao.png);
+    height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    padding-left: 20px;
 }
-.botao-um{
-    border-radius: 100px ;
+
+.txt-sessao-dois {
+    font-size: 50px;
+}
+
+.txt-p-um {
+    width: 32vw;
+    font-size: 25px;
+    margin: 30px 0;
+
+}
+
+.botao-um {
+    border-radius: 100px;
     border: none;
     color: #ffffff;
     padding: 15px 30px 15px 30px;
@@ -136,75 +115,57 @@ text-align: center;
     font: normal normal bold 27px/35px Roboto;
 }
 
-.terceirasessao{
+/*Fim da segunda section*/
+
+ /*inicio da terceira section*/
+ .sessao3{
     background-image: url(./cachorropreto.png);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
     color:#FFFFFF;
-}
 
 
-.txt-sessa-tres{
-    font-size: 50px;
-    height: 30vh;
-    width: 82vw;
-    display: flex;
-    align-items: self-end;
-    justify-content: flex-end;
 }
-.txt-sessa-tres-h{
+
+.mobiletexto{
+display: none;
+  
+}
+.mordomia{
+
+font-size: 50px;
+height: 30vh;
+width: 81.5vw;
+display: flex;
+align-items: self-end;
+justify-content: flex-end;
+
+}
+
+.saudavel{
     font-size: 50px;
-    width: 80vw;
+    width: 79vw;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 
 }
-.p-um{
-   text-align: center;
-    display: flex;
-    width: 86.5vw;
-    display: flex;
-    justify-content: flex-end;
-    font-size: 25px;
+
+ .p-um{
+ width: 300px;
+ margin-left: 820px;
+ margin-top: 20px ;
+ font-size: 22px;
+
 }
+
 .p-dois{
-        text-align: center;
-        display: flex;
-        width: 88.5vw;
-        display: flex;
-        justify-content: flex-end;
-        font-size: 25px;
-}
-.p-tres{
-     text-align: center;
-     display: flex;
-     width: 89.5vw;
-     display: flex;
-     justify-content: flex-end;
-     font-size: 25px;
-}
-.p-quatro{
-    text-align: center;
-    display: flex;
-    width: 83vw;
-    display: flex;
-    justify-content: flex-end;
-    font-size: 25px;
-}
-.p-cinco{
-    text-align: center;
-    display: flex;
-    width: 91vw;
-    display: flex;
-    justify-content: flex-end;
-    font-size: 25px;
-  
+    display: none;
 }
 .botaofinal{
-    width: 83vw;
+    width: 81vw;
     height: 20vh;
     display: flex;
     align-items: center;
@@ -217,8 +178,13 @@ text-align: center;
     background-color: #FFFFFF;
     padding: 15px 30px 15px 30px;
     font: normal normal bold 27px/35px Roboto;
+
 }
-.main-sessao{
+ /*Fim da terceiro section*/
+
+ /*inicio da quarta section*/
+ 
+ .main-sessao{
     background: #FFFFFF;    
     height: 17vh;
 }
@@ -227,7 +193,9 @@ text-align: center;
     justify-content: space-around;
     width: 90vw;
     align-items: center;
-    height: 17vh;
+    height: 17vh; 
+    font-style: italic;
+   
 }
 .Apoio{
     font-family: 'Roboto Serif', serif;
@@ -235,220 +203,262 @@ text-align: center;
     font-size: 20px;
     font-weight: 800;
 }
-footer{
-    height: 40vh;
-    background-color: #EB4A7B;
-    display: flex;
-    flex-wrap: nowrap;
-    color: #ffffff;
-}
-.footer{
-  display: flex;
-  align-items: end;
-}
-.mobile{
-  display: none;
-}
-li{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    width: 9vw;
-    justify-content: start;
-    
-}
-.colunafooter{
-    width: 15vw; 
-    height: 14vh ;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-h3{
-    color: #FFFFFF;
-}
 
-.Atendimento{
-    height: 10vh;
-    width: 14.5vw;
+ /*Fim da quarta section*/
+
+ /*Inicio do footer*/
+ footer{
     display: flex;
-    justify-content: center;
-    align-items: end;   
-}
-.sobre{
-    height: 10vh;
-    width: 10vw;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-}
-.unidades{
-    height: 10vh;
-    width: 12vw;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-}
-@media(max-width:570px){
+    align-items: center;
+    background-color: #EB4A7B;
+    height: 50vh;
+    width: 100vw;
+  }
+  .mobile{
+    display: none;
+  }
+  li{
+      list-style: none;
+      display: flex;
+      align-items: center;
+      width: 9vw;
+      justify-content: start;
+      color: #FFFFFF;
+      
+  }
+  .colunafooter{
+      width: 15vw; 
+      height: 14vh ;
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  h3{
+      color: #FFFFFF;
+  }
+  
+  .Atendimento{
+      height: 10vh;
+      width: 14.5vw;
+      display: flex;
+      justify-content: center;
+      align-items: end; 
    
-    header div{
-       
+  }
+  .sobre{
+      height: 10vh;
+      width: 10vw;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+  }
+  .unidades{
+      height: 10vh;
+      width: 12vw;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+  }
+
+ /*Final do footer*/
+
+@media (max-width:500px) {
+
+    /*inicio do meu header*/
+    header div {
         width: 55vw;
         display: flex;
         align-items: center;
         justify-content: center;
-       
-}
-.primeira{
-    display: flex;
-    justify-content: space-around;
-}
-.primeira h3{
-font-size:x-large
-}
-h3{
-  
-}
-nav{
-    flex-direction: row-reverse;
-}
-   .logo{
-    width: 48px;
-   }
-   .instagram{
-    display: none;
     }
-    .Youtube{
-     display: none;
+
+    .primeira {
+        display: flex;
+        justify-content: space-around;
     }
-    .whats{
-       position: absolute;
-        width: 12vw ;
+
+    .primeira h3 {
+        font-size: x-large
+    }
+
+    nav {
+        flex-direction: row-reverse;
+    }
+
+    .logo {
+        width: 48px;
+    }
+
+    .instagram {
+        display: none;
+    }
+
+    .Youtube {
+        display: none;
+    }
+
+    .whats {
+        position: absolute;
+        width: 12vw;
         margin-top: -23px;
     }
-    .primeirasessao{
-      
-        
+
+    /*Fim do meu header*/
+
+    /*inicio da primeira section*/
+
+    .primeira {
+        display: flex;
+        justify-content: space-around;
     }
 
-    
-    .patinhadiv{
-       
+    .primeira h3 {
+        font-size: x-large
+    }
+
+    .patinhadiv {
         height: 60vh;
     }
-    .patinhadiv h2{
-        font-size:40px;
+
+    .patinhadiv h2 {
+        font-size: 40px;
     }
-       .txt-sessa-um{
-        
-       }
-      
-    .txt-sessa-dois{
-        
-            
-          }
-    .txt-p-um{
-    
-     border: 2px solid blue; 
-     width: 100vw;´
-        
-        }
-           .txt-p-dois{
-            border: 2px solid blue; 
-            width: 100vw;
-           }
-           .txt-p-tres{
-            border: 2px solid blue; 
-            width: 100vw;
-           }
-           .txt-p-quatro{
-            border: 2px solid blue; 
-            width: 100vw;
-           }
-            .txt-p-cinco{
-                border: 2px solid blue; 
-                width: 100vw;
-            }
-            .segundasessao p{
-                border: 2px solid red; 
-                
-            
-                
-            }
-    .patinhadiv img{
-     height: 15vh;   
-     width: 20vw;
+
+    .logopet {
+        height: 90px;
+        width: 100px;
     }
+
+    /*Fim da primeira section*/
+
+    /*inicio da segunda section*/
     .sessao2 {
-      
-        border: 2px solid blue;
-       
-    
-    
-    }
-    .txt-sessa-dois{
-        border: 2px solid greenyellow;
+        background-image: url(./imagens/leaocachorro.png);
+        background-size: cover;
+        background-position: center;
         width: 100vw;
-        margin-bottom: 100px;
-        height: 10vh;
+        height: 100vh;
+        padding: 30px;
+    }
+
+    .segundasessao {
+        height: 80vh;
+        width: 500px;
+
+    }
+
+    .txt-sessao-dois {
         font-size: 32px;
     }
-  
-    
-    .segundasessao{
-        background-image: url(./imagens/cachorroleao.png);
-    }
-    
-        .sessao2{
-      background-image: ;  
+
+    .txt-p-um {
+        width: 300px;
+        text-align: left;
+        font-size: 22px;
 
     }
-    .sessao3{
-    
-    
-    }
-    .terceirasessao{
 
-        background-image: url(./cachorro2mobile.png);
-        }
-.main-final{
-   border: 2px solid rebeccapurple; 
-   width: 100vw;
-   display: flex;
+    .botao-um {
+       
+    }
+
+/*Fim da segunda section*/
+
+ /*inicio da terceira section*/
+ .sessao3{
+ background-image: url(./cachorro2mobile.png);
+
+}
+
+.mobiletexto {
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+   height: 12vh;
+   width: 75vw;
+    font-size: 30px;
+    padding-right: 20px;
    
 }
-.main-final img{
+.mordomia{
+    display: none;
+}
+.saudavel{
+    display: none;
+}
+.terceirasessao p{
+    align-items: ;
+    height: 7vh;
+}
+.p-um{
+    color: #FFFFFF;
+font-size: 22px;
+
+}
+.p-dois{
+    display: flex;
+    font-size: 22px;
+  justify-content: start;
+    align-items: flex-end;
+  padding-left: 15px;
+
+   
+}
+
+.botaofinal{
+    height:12vh ;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: 15px;
+
+}
+. {
+    padding: 5px 20px 5px 20px;
+    font-size: 18px;
+  
+}
+
+ /*Fim da terceiro section*/
+ 
+ /*inicio da quarta section*/
+
+ .main-final img{
     width: 30vw;
     display: flex;
     justify-content: space-around;
-    
-    
-}
-.main-sessao{
-    border: 2px solid red; 
-
 }
 
 .Apoio{
     font-size: medium;
 position: absolute;
-left: 167px;
+left: 160px;
 margin-bottom: 50px;
 }
-   .havannas{
-   width: 200vw; 
-
+.havannas{
+ width: 200vw; 
    } 
-   .footer  {
 
+ /*Fim da quarta section*/
+/*inicio do footer*/
+footer  {
+height: 100vh;
 
-   }
+}
 .mobile{
     width: 50vw;
-    height: 100vh;
+    height: 50vh;
     display: flex;
 }
+.primeirafooter{
+ width: 60vw;
+height: 50vh;
+    width: 50vw;
+    border: 2px  solid #000000 ;
+   
+    
 }
 
+/*final do footer*/
 
+}
