@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 /*inicio do meu header*/
@@ -117,34 +118,35 @@ body {
 
 /*Fim da segunda section*/
 
- /*inicio da terceira section*/
- .sessao3{
+/*inicio da terceira section*/
+.sessao3 {
     background-image: url(./cachorropreto.png);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
-    color:#FFFFFF;
+    color: #FFFFFF;
 
 
 }
 
-.mobiletexto{
-display: none;
-  
-}
-.mordomia{
-
-font-size: 50px;
-height: 30vh;
-width: 81.5vw;
-display: flex;
-align-items: self-end;
-justify-content: flex-end;
+.mobiletexto {
+    display: none;
 
 }
 
-.saudavel{
+.mordomia {
+
+    font-size: 50px;
+    height: 30vh;
+    width: 81.5vw;
+    display: flex;
+    align-items: self-end;
+    justify-content: flex-end;
+
+}
+
+.saudavel {
     font-size: 50px;
     width: 79vw;
     display: flex;
@@ -153,115 +155,128 @@ justify-content: flex-end;
 
 }
 
- .p-um{
- width: 300px;
- margin-left: 820px;
- margin-top: 20px ;
- font-size: 22px;
+.p-um {
+    width: 300px;
+    margin-left: 820px;
+    margin-top: 20px;
+    font-size: 22px;
 
 }
 
-.p-dois{
+.p-dois {
     display: none;
 }
-.botaofinal{
+
+.botaofinal {
     width: 81vw;
     height: 20vh;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    
+
 }
-.botao-final{
-    border-radius: 100px ;
+
+.botao-final {
+    border-radius: 100px;
     border: none;
     background-color: #FFFFFF;
     padding: 15px 30px 15px 30px;
     font: normal normal bold 27px/35px Roboto;
 
 }
- /*Fim da terceiro section*/
 
- /*inicio da quarta section*/
- 
- .main-sessao{
-    background: #FFFFFF;    
+/*Fim da terceiro section*/
+
+/*inicio da quarta section*/
+
+.main-sessao {
+    background: #FFFFFF;
     height: 17vh;
 }
-.main-final{
+
+.main-final {
     display: flex;
     justify-content: space-around;
     width: 90vw;
     align-items: center;
-    height: 17vh; 
+    height: 17vh;
     font-style: italic;
-   
+
 }
-.Apoio{
+
+.Apoio {
     font-family: 'Roboto Serif', serif;
     color: #EB4A7B;
     font-size: 20px;
     font-weight: 800;
 }
 
- /*Fim da quarta section*/
+/*Fim da quarta section*/
 
- /*Inicio do footer*/
- footer{
+/*Inicio do footer*/
+footer {
     display: flex;
     align-items: center;
     background-color: #EB4A7B;
     height: 50vh;
     width: 100vw;
-  }
-  .mobile{
-    display: none;
-  }
-  li{
-      list-style: none;
-      display: flex;
-      align-items: center;
-      width: 9vw;
-      justify-content: start;
-      color: #FFFFFF;
-      
-  }
-  .colunafooter{
-      width: 15vw; 
-      height: 14vh ;
-      flex-direction: column;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  }
-  h3{
-      color: #FFFFFF;
-  }
-  
-  .Atendimento{
-      height: 10vh;
-      width: 14.5vw;
-      display: flex;
-      justify-content: center;
-      align-items: end; 
-   
-  }
-  .sobre{
-      height: 10vh;
-      width: 10vw;
-      display: flex;
-      justify-content: center;
-      align-items: end;
-  }
-  .unidades{
-      height: 10vh;
-      width: 12vw;
-      display: flex;
-      justify-content: center;
-      align-items: end;
-  }
+}
 
- /*Final do footer*/
+.mobile {
+    display: none;
+}
+
+li {
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 9vw;
+    justify-content: start;
+    color: #FFFFFF;
+
+}
+
+.colunafooter {
+
+    width: 15vw;
+    height: 14vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    color: #FFFFFF;
+}
+
+.Atendimento {
+    height: 10vh;
+    width: 14.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.sobre {
+    height: 10vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.unidades {
+    height: 10vh;
+    width: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+/*Final do footer*/
 
 @media (max-width:500px) {
 
@@ -359,106 +374,196 @@ justify-content: flex-end;
 
     }
 
-    .botao-um {
-       
+    .botao-um {}
+
+    /*Fim da segunda section*/
+
+    /*inicio da terceira section*/
+    .sessao3 {
+        background-image: url(./cachorro2mobile.png);
+
     }
 
-/*Fim da segunda section*/
+    .mobiletexto {
+        align-items: flex-end;
+        display: flex;
+        justify-content: flex-end;
+        height: 12vh;
+        width: 75vw;
+        font-size: 30px;
+        padding-right: 20px;
 
- /*inicio da terceira section*/
- .sessao3{
- background-image: url(./cachorro2mobile.png);
+    }
 
+    .mordomia {
+        display: none;
+    }
+
+    .saudavel {
+        display: none;
+    }
+
+    .terceirasessao p {
+        align-items: ;
+        height: 7vh;
+    }
+
+    .p-um {
+        color: #FFFFFF;
+        font-size: 22px;
+
+    }
+
+    .p-dois {
+        display: flex;
+        font-size: 22px;
+        justify-content: start;
+        align-items: flex-end;
+        padding-left: 15px;
+
+
+    }
+
+    .botaofinal {
+        height: 12vh;
+        justify-content: flex-start;
+        align-items: flex-end;
+        padding-left: 15px;
+
+    }
+
+
+    /*Fim da terceiro section*/
+
+    /*inicio da quarta section*/
+
+    .main-final img {
+        width: 30vw;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .Apoio {
+        font-size: medium;
+        position: absolute;
+        left: 160px;
+        margin-bottom: 50px;
+    }
+
+    .havannas {
+        width: 200vw;
+    }
+
+    /*Fim da quarta section*/
+    /*inicio do footer*/
+    .footer-mobile {
+        flex-direction: column;
+        height: 110vh;
+
+    }
+
+    .mobile {
+        width: 100vw;
+        height: 50vh;
+        display: flex;
+    }
+
+    .primeira-mobile {
+        display: flex;
+        width: 100vw;
+        justify-content: end;
+        align-items: center;
+        height: 30vh;
+
+
+    }
+
+    .logofooter {
+        padding-left: 10px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .fantastika-mobile {
+        font-size: 32px;
+        text-align: end;
+        padding-left: 20px;
+
+    }
+
+    .nav-footer {}
+
+    .nav-footer img {
+
+        left: 50px;
+
+    }
+
+    .instagram-mobile {
+        position: absolute;
+        width: 12vw;
+        margin-left: 45px;
+        margin-bottom: 200px;
+    }
+
+    .Youtube-mobile {
+        width: 13vw;
+        height: 5.8vh;
+        position: absolute;
+        margin-left: 120px;
+        margin-bottom: 250px;
+    }
+
+    .whats-mobile {
+        width: 12vw;
+        position: absolute;
+        margin-left: 200px;
+        margin-bottom: 250px;
+    }
+
+    .at-ul {
+        position: absolute;
+        margin-top: 230px;
+
+    }
+
+    .Atendimento {
+        font-size: 30px;
+    }
+    .at-li{
+        width: 90px;
+    }
+
+    .sobre {
+        width: 50vw;
+        font-size: 30px;
+    }
+
+    sobre-ul {
+    }
+
+    .Meio-li {
+        width: 100vw;
+        justify-content: center;
+        padding-left: 150px;
+
+    }
+
+    .unidades {
+        
+        margin-bottom: 20px;
+        font-size: 30px;
+
+    }
+
+    .fim-ul {
+        height: 20vh;
+        display: flex;
+        width: 10vh;
+    }
 }
 
-.mobiletexto {
-    align-items: flex-end;
-    display: flex;
-    justify-content: flex-end;
-   height: 12vh;
-   width: 75vw;
-    font-size: 30px;
-    padding-right: 20px;
-   
-}
-.mordomia{
-    display: none;
-}
-.saudavel{
-    display: none;
-}
-.terceirasessao p{
-    align-items: ;
-    height: 7vh;
-}
-.p-um{
-    color: #FFFFFF;
-font-size: 22px;
-
-}
-.p-dois{
-    display: flex;
-    font-size: 22px;
-  justify-content: start;
-    align-items: flex-end;
-  padding-left: 15px;
-
-   
-}
-
-.botaofinal{
-    height:12vh ;
-    justify-content: flex-start;
-    align-items: flex-end;
-    padding-left: 15px;
-
-}
-. {
-    padding: 5px 20px 5px 20px;
-    font-size: 18px;
-  
-}
-
- /*Fim da terceiro section*/
- 
- /*inicio da quarta section*/
-
- .main-final img{
-    width: 30vw;
-    display: flex;
-    justify-content: space-around;
-}
-
-.Apoio{
-    font-size: medium;
-position: absolute;
-left: 160px;
-margin-bottom: 50px;
-}
-.havannas{
- width: 200vw; 
-   } 
-
- /*Fim da quarta section*/
-/*inicio do footer*/
-footer  {
-height: 100vh;
-
-}
-.mobile{
-    width: 50vw;
-    height: 50vh;
-    display: flex;
-}
-.primeirafooter{
- width: 60vw;
-height: 50vh;
-    width: 50vw;
-    border: 2px  solid #000000 ;
-   
-    
-}
 
 /*final do footer*/
-
-}
