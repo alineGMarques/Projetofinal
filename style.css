@@ -353,8 +353,9 @@ h3 {
         background-size: cover;
         background-position: center;
         width: 100vw;
-        height: 100vh;
+        height: 120vh;
         padding: 30px;
+        padding-bottom: 180px;
     }
 
     .segundasessao {
@@ -365,6 +366,7 @@ h3 {
 
     .txt-sessao-dois {
         font-size: 32px;
+        
     }
 
     .txt-p-um {
@@ -374,14 +376,17 @@ h3 {
 
     }
 
-    .botao-um {}
+    .botao-um {
+    
+    }
+    
 
     /*Fim da segunda section*/
 
     /*inicio da terceira section*/
     .sessao3 {
         background-image: url(./cachorro2mobile.png);
-
+        h
     }
 
     .mobiletexto {
@@ -405,7 +410,7 @@ h3 {
 
     .terceirasessao p {
         align-items: ;
-        height: 7vh;
+        height: 11vh;
     }
 
     .p-um {
@@ -446,7 +451,7 @@ h3 {
     .Apoio {
         font-size: medium;
         position: absolute;
-        left: 160px;
+        padding-left: 15px;
         margin-bottom: 50px;
     }
 
@@ -458,7 +463,7 @@ h3 {
     /*inicio do footer*/
     .footer-mobile {
         flex-direction: column;
-        height: 110vh;
+        height: 150vh;
 
     }
 
@@ -525,7 +530,7 @@ h3 {
 
     .at-ul {
         position: absolute;
-        margin-top: 230px;
+        margin-top: 200px;
 
     }
 
@@ -536,24 +541,27 @@ h3 {
         width: 90px;
     }
 
+    .sobre-ul{
+        margin-top: 50px;
+        
+    }
+
     .sobre {
         width: 50vw;
         font-size: 30px;
     }
 
-    sobre-ul {
-    }
 
     .Meio-li {
-        width: 100vw;
+        width: 80vw;
         justify-content: center;
-        padding-left: 150px;
+        padding-left: 120px;
 
     }
 
     .unidades {
         
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         font-size: 30px;
 
     }
